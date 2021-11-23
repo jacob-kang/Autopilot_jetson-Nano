@@ -1,4 +1,5 @@
-# Autopilot_jetson-Nano
-In this repository, I write down what I learned about Autopilot with JetsonNano.
+# Autopilot_jetson-Nano  
+In this repository, I write down what I learned about Autopilot with JetsonNano.  
+I'm leading this project as team leader and we are aiming at **road following, collision avoidance, gesture recognition**.  
 
-This poroject is Deep-learning class in Hanbat National University.  
+_This project is Deep-learning class project in Hanbat National University (tought by KyunTae Lim)_
