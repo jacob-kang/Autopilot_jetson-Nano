@@ -1,2 +1,4 @@
 # Autopilot_jetson-Nano
-Autopilot AI using Jetson Nano
+In this repository, I write down what I learned about Autopilot with JetsonNano.
+
+This poroject is Deep-learning class in Hanbat National University.  
