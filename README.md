@@ -45,5 +45,6 @@ This bases on resnet18 and is converted as [TensorRT].(https://developer.nvidia.
 And this model is for Left / Right decision. We are trained this model with more than 400 images.
 
 #### Left
-
+![왼쪽](https://user-images.githubusercontent.com/88817336/146966539-caeddd62-fc05-4515-8611-ee4cfd12d391.JPG) {: width="80%" height="80%"}
+![자동차-removebg-preview](https://user-images.githubusercontent.com/88817336/146966542-38971a56-5274-4c14-8ca9-156750a0c9b3.png) {: width="80%" height="80%"}
 
