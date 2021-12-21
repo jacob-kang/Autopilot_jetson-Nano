@@ -35,7 +35,7 @@ The flow chart is like below image.
   
 Green is Regression model, Red is Classification model.
 
-# Model
+## Model
 There are 3 models for this project and 1 xml file for face recognition of OpenCV.
 * LR_best_model_trt.pth
 * block_free_model_trt.pth
@@ -71,10 +71,11 @@ This bases on resnet18 and is converted as [TensorRT](https://developer.nvidia.c
 This model trained the track which is served when We buy jetbot.  
 Our jetbot settings are these.  
 
-* speed_gain_slider = 0.18  
-* steering_gain_slider = 0.03  
+* speed_gain_slider = 0.20  
+* steering_gain_slider = 0.05  
 * sttering_dgain_slider = 0.0  
 * sttering_bias_slider = 0.0  
+(These parameter must differ every jetbot. So You need to find your fit parameters.)  
 
 ![road following](https://user-images.githubusercontent.com/88817336/146989056-1c702036-9620-4c2e-aeb2-d02cbe94482e.gif)  
   
@@ -84,3 +85,15 @@ We used this model to mosaic person's face during recording when the jetbot is r
 In this project, We consered about personal privacy policy.  
 Many company gathers autopilot data without caring people's privacy. That's why we use cascade model.  
 
+## Function
+After left or right decision, Our jetbot calls avoidance().  
+You can find these in Main.ipynb.  
+```
+def left_avoidance():
+  ...
+  
+def right_avoidance():
+  ...
+```
+If it decides left, It calls left_avoidnace() and It decides the other sides, It calls right_avoidance().  
+So our jetbot can avoid obstructions on the road.  
