@@ -51,11 +51,16 @@ We took pictures included these images.
 #### Left
 Left road sign / Car toy  
 <img src="https://user-images.githubusercontent.com/88817336/146966539-caeddd62-fc05-4515-8611-ee4cfd12d391.JPG" width="15%" height="15%"/></center>
-<img src="https://user-images.githubusercontent.com/88817336/146966542-38971a56-5274-4c14-8ca9-156750a0c9b3.png" width="15%" height="15%"/></center>
+<img src="https://user-images.githubusercontent.com/88817336/146966542-38971a56-5274-4c14-8ca9-156750a0c9b3.png" width="15%" height="15%"/></center>  
+
+![left](https://user-images.githubusercontent.com/88817336/146988903-10f6d049-b05e-487a-bfd4-9e501df37063.gif)  
+
+
 
 #### Right
 Right road sign  
 <img src="https://user-images.githubusercontent.com/88817336/146966728-3d459ab9-e613-4212-9966-755e9152b3c8.JPG" width="15%" height="15%"/></center>  
+![right](https://user-images.githubusercontent.com/88817336/146988907-705e5eef-a224-4cfb-9914-ba1d40c4d95d.gif)  
 ### 2. block_free_model_trt.pth
 This bases on resnet18 and is converted as [TensorRT](https://developer.nvidia.com/tensorrt) too.  
 And this model is used like object detection.  
@@ -70,6 +75,8 @@ Our jetbot settings are these.
 * steering_gain_slider = 0.03  
 * sttering_dgain_slider = 0.0  
 * sttering_bias_slider = 0.0  
+
+![road following](https://user-images.githubusercontent.com/88817336/146989056-1c702036-9620-4c2e-aeb2-d02cbe94482e.gif)  
   
 ### 4. haarcascade_frontalface_default.xml  
 This is from openCV face detection model named [haarcascade](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html).  
