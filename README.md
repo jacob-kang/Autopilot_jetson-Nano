@@ -28,3 +28,5 @@ With inferenced information, Jetson robot can move what you trained. (We used '[
 Our Autopilot is configured **Road following, Collision Avoidance, Object detection**. (You can see the details lower part)
 
 The flow chart is like below image.  
+![Algorithm flow chart](https://user-images.githubusercontent.com/88817336/146943975-d4aa3aa6-675b-426c-bf05-90442dd13bac.JPG)
+
