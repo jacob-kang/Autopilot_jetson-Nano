@@ -46,5 +46,5 @@ And this model is for Left / Right decision. We are trained this model with more
 
 #### Left
 <img src="https://user-images.githubusercontent.com/88817336/146966539-caeddd62-fc05-4515-8611-ee4cfd12d391.JPG" width="10%" height="10%"/></center>
-<img src="https://user-images.githubusercontent.com/88817336/146966542-38971a56-5274-4c14-8ca9-156750a0c9b3.pngG" width="10%" height="10%"/></center>
+<img src="https://user-images.githubusercontent.com/88817336/146966542-38971a56-5274-4c14-8ca9-156750a0c9b3.png" width="10%" height="10%"/></center>
 
