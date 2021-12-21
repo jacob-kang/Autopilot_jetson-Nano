@@ -33,5 +33,17 @@ The flow chart is like below image.
 Green is Regression model, Red is Classification model.
 
 # Model
-There are 3 models for this project.
-* 
+There are 3 models for this project and 1 xml file for face recognition of OpenCV.
+* LR_best_model_trt.pth
+* block_free_model_trt.pth
+* road_following_model_trt.pth
+
+* haarcascade_frontalface_default.xml
+
+### 1. LR_best_model_trt.pth
+This bases on resnet18 and is converted as [TensorRT].(https://developer.nvidia.com/tensorrt)
+And this model is for Left / Right decision. We are trained this model with more than 400 images.
+
+#### Left
+
+
