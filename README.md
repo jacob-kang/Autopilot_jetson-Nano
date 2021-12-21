@@ -5,7 +5,7 @@ And I was a **team leader** and whole period was 4 weeks project.
 # Introduction
 **Autopilot**'s interest is increasing without interupt.  
 Lots of big company such as Amazon, Tesla, Uber etc. research Autopilot area these day and They are looking for great developer and the popularity may look likely to go further.  
-But It is not easy to pracitce or test your model with real car. (hard to hack your car (is it possible?) or too danger)  
+But It is not easy to pracitce or test your model with real car. (hard to hack your car (Is it even possible?) or too danger)  
 
 With Nvidia Jetson Nano and Jetbot AI kid, You can practice Autopilot technology and it is really helpful to get a sense how The Autopilot works.  
   
@@ -41,10 +41,36 @@ There are 3 models for this project and 1 xml file for face recognition of OpenC
 * haarcascade_frontalface_default.xml
 
 ### 1. LR_best_model_trt.pth
-This bases on resnet18 and is converted as [TensorRT].(https://developer.nvidia.com/tensorrt)
+This bases on resnet18 and is converted as [TensorRT].(https://developer.nvidia.com/tensorrt)  
 And this model is for Left / Right decision. We are trained this model with more than 400 images.
-
+  
+We took pictures included these images.  
 #### Left
-<img src="https://user-images.githubusercontent.com/88817336/146966539-caeddd62-fc05-4515-8611-ee4cfd12d391.JPG" width="10%" height="10%"/></center>
-<img src="https://user-images.githubusercontent.com/88817336/146966542-38971a56-5274-4c14-8ca9-156750a0c9b3.png" width="10%" height="10%"/></center>
+Left road sign / Car toy  
+<img src="https://user-images.githubusercontent.com/88817336/146966539-caeddd62-fc05-4515-8611-ee4cfd12d391.JPG" width="15%" height="15%"/></center>
+<img src="https://user-images.githubusercontent.com/88817336/146966542-38971a56-5274-4c14-8ca9-156750a0c9b3.png" width="15%" height="15%"/></center>
+
+#### Right
+Right road sign  
+<img src="https://user-images.githubusercontent.com/88817336/146966728-3d459ab9-e613-4212-9966-755e9152b3c8.JPG" width="15%" height="15%"/></center>  
+### 2. block_free_model_trt.pth
+This bases on resnet18 and is converted as [TensorRT](https://developer.nvidia.com/tensorrt) too.  
+And this model is used like object detection.  
+This model detects object in front of jetbot. If it detects something, It inferences as Block.  
+
+### 3. road_following_model_trt.pth
+This bases on resnet18 and is converted as [TensorRT](https://developer.nvidia.com/tensorrt).  
+This model trained the track which is served when We buy jetbot.  
+Our jetbot settings are these.  
+
+* speed_gain_slider = 0.18  
+* steering_gain_slider = 0.03  
+* sttering_dgain_slider = 0.0  
+* sttering_bias_slider = 0.0  
+  
+### 4. haarcascade_frontalface_default.xml  
+This is from openCV face detection model named [haarcascade](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html).  
+We used this model to mosaic person's face during recording when the jetbot is running.  
+In this project, We consered about personal privacy policy.  
+Many company gathers autopilot data without caring people's privacy. That's why we use cascade model.  
 
