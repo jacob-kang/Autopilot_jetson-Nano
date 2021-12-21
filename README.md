@@ -29,4 +29,9 @@ Our Autopilot is configured **Road following, Collision Avoidance, Object detect
 
 The flow chart is like below image.  
 ![Algorithm flow chart](https://user-images.githubusercontent.com/88817336/146943975-d4aa3aa6-675b-426c-bf05-90442dd13bac.JPG)
+  
+Green is Regression model, Red is Classification model.
 
+# Model
+There are 3 models for this project.
+* 
