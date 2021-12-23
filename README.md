@@ -44,7 +44,7 @@ There are 3 models for this project and 1 xml file for face recognition of OpenC
 * haarcascade_frontalface_default.xml
 
 ### 1. LR_best_model_trt.pth
-This bases on resnet18 and is converted as [TensorRT].(https://developer.nvidia.com/tensorrt)  
+This bases on resnet18 and is converted as [TensorRT](https://developer.nvidia.com/tensorrt).  
 And this model is for Left / Right decision. We are trained this model with more than 400 images.
   
 We took pictures included these images.  
