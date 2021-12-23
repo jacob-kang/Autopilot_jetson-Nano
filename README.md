@@ -86,6 +86,7 @@ In this project, We consered about personal privacy policy.
 Many company gathers autopilot data without caring people's privacy. That's why we use cascade model.  
 
 ## Function
+#### avoidance()  
 After left or right decision, Our jetbot calls avoidance().  
 You can find these in Main.ipynb.  
 ```
@@ -95,5 +96,10 @@ def left_avoidance():
 def right_avoidance():
   ...
 ```
-If it decides left, It calls left_avoidnace() and It decides the other sides, It calls right_avoidance().  
+If LR_best_model decides left, It calls left_avoidnace() and It decides the other sides, It calls right_avoidance().  
 So our jetbot can avoid obstructions on the road.  
+
+
+#### preprocess()  
+This method makes ndarray to tensor array then normalize the tensor with mean, standard.  
+and return the tensor **half**.  
