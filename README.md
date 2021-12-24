@@ -51,7 +51,7 @@ We took pictures included these images.
 #### Left
 Left road sign / Car toy  
 <img src="https://user-images.githubusercontent.com/88817336/146966539-caeddd62-fc05-4515-8611-ee4cfd12d391.JPG" width="15%" height="15%"/></center>
-<img src="https://user-images.githubusercontent.com/88817336/146966542-38971a56-5274-4c14-8ca9-156750a0c9b3.png" width="15%" height="15%"/></center>  
+<img src="https://user-images.githubusercontent.com/88817336/146966542-38971a56-5274-4c14-8ca9-156750a0c9b3.png" width="20%" height="20%"/></center>  
 
 ![left](https://user-images.githubusercontent.com/88817336/146988903-10f6d049-b05e-487a-bfd4-9e501df37063.gif)  
 
