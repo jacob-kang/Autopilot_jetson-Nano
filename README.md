@@ -1,5 +1,5 @@
 # Autopilot_jetson-Nano  
-This repository is about team project in 'Deep learning class' in Hanbat National University _(tought by KyunTae Lim)_.  
+This repository is about team project in 'Deep learning class' in Hanbat National University _(advisor : prof.KyunTae Lim)_.  
 And I was a **team leader** and whole period was 4 weeks project.  
 ![entire](https://user-images.githubusercontent.com/88817336/146987758-1b7884a5-79c5-464d-a4e1-1c091abf32c1.gif)
 
