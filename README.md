@@ -1,6 +1,6 @@
 # Autopilot_jetson-Nano  
 This repository is about team project in 'Deep learning class' in Hanbat National University _(Advisor : Prof. [KyunTae Lim](https://sites.google.com/view/aailab))_.  
-This class is selected as the NVIDIA University Ambassador Program from [NVIDIA Deep Learning Institute (DLI)](https://www.nvidia.com/ko-kr/training/).  
+This class is selected as **the NVIDIA University Ambassador Program** from [NVIDIA Deep Learning Institute (DLI)](https://www.nvidia.com/ko-kr/training/).  
 And I was a **team leader** and whole period was 4 weeks project.  
 ![entire](https://user-images.githubusercontent.com/88817336/146987758-1b7884a5-79c5-464d-a4e1-1c091abf32c1.gif)
 
