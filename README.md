@@ -76,7 +76,7 @@ Our jetbot settings are these.
 * steering_gain_slider = 0.05  
 * sttering_dgain_slider = 0.0  
 * sttering_bias_slider = 0.0  
-(These parameter must differ every jetbot. So You need to find your fit parameters.)  
+(These parameter must differ every jetbot. So You need to find your fit parameters. It is totally empirical.)  
 
 ![road following](https://user-images.githubusercontent.com/88817336/146989056-1c702036-9620-4c2e-aeb2-d02cbe94482e.gif)  
   
